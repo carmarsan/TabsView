@@ -19,7 +19,7 @@ struct ContentView: View {
 struct TabsView: View{
 	var body: some View {
 		TabView{
-			NavigationView{ Text("Hola") }
+			NavigationView{ Text("Hola") } 
 			.tabItem{
 					Image(systemName: "list.dash")
 					Text("Lista")
